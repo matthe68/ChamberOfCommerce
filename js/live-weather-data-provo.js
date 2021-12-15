@@ -1,6 +1,6 @@
 
-const city_id = 5780026;
-const apiURL = String(`https://api.openweathermap.org/data/2.5/weather?id=${city_id}&units=imperial&APPID=e4da1d7ad62dd36f28b3c533465b2412`);
+let city_id = 5780026;
+let apiURL = String(`https://api.openweathermap.org/data/2.5/weather?id=${city_id}&units=imperial&APPID=e4da1d7ad62dd36f28b3c533465b2412`);
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
