@@ -6,7 +6,8 @@
         "telephone": "801-705-8005",
         "address": "4931 North 300 West Provo, UT 84604"
       },
-      "logolocation": "./images/vivint-logo.png"
+      "logolocation": "./images/vivint-logo.png",
+      "url": "https://www.vivint.com/"
     },
     {
       "business": "Big Leap",
@@ -14,7 +15,8 @@
         "telephone": "801-876-5250",
         "address": "525 S 850 E, Suite 2, Lehi, Utah 84043"
       },
-      "logolocation": "./images/big-leap-logo.png"
+      "logolocation": "./images/big-leap-logo.png",
+      "url": "https://www.bigleap.com/"
     },
     {
       "business": "Google Fiber",
@@ -22,7 +24,8 @@
         "telephone": "978-267-7686",
         "address": "250 @ Center Street Suite 360, Provo, Utah 84604"
       },
-      "logolocation": "./images/google-fiber-logo.png"
+      "logolocation": "./images/google-fiber-logo.png",
+      "url": "https://fiber.google.com/"
     }
   ]
 }

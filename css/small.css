@@ -159,6 +159,10 @@ nav ul.hide {
   font-size: 1.2em;
   padding: .2em;
 }
+#welcome img {
+padding-right: 1em;
+padding-bottom: 1em;
+}
 main {
   margin-top: 1em;
   margin-left: auto;
@@ -218,8 +222,10 @@ margin-bottom: 0;
   border-radius: 25px;
   box-shadow: 0 5px 8px var(--black);
   margin-bottom: 1em;
+  clear: both;
+  overflow: auto;
 }
-.article>div, .article>p {
+.article>p {
   padding: 0 1em 1em 1em;
   margin: 0;
 }
@@ -439,7 +445,7 @@ form label textarea {
 }
 #cards-container {
   display: grid;
-  margin: 3vw;
+  margin: 2vw;
   width: auto;
   gap: 1rem;
   grid-template-columns: 1fr;
