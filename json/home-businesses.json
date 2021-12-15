@@ -22,10 +22,47 @@
       "business": "Google Fiber",
       "contactInfo": {
         "telephone": "978-267-7686",
-        "address": "250 @ Center Street Suite 360, Provo, Utah 84604"
+        "address": "250 W Center Street Suite 360, Provo, Utah 84604"
       },
       "logolocation": "./images/google-fiber-logo.png",
       "url": "https://fiber.google.com/"
+    }
+    ,
+    {
+      "business": "MyComputerCareer",
+      "contactInfo": {
+        "telephone": "866-606-6922",
+        "address": "1712 Sounth East Bay Boulevard, Bldg. 5 Suite 350, Provo, Utah 84604"
+      },
+      "logolocation": "./images/mycomputercareer-logo.png",
+      "url": "https://www.mycomputercareer.edu/"
+    },
+    {
+      "business": "AAA Lakeside Storage",
+      "contactInfo": {
+        "telephone": "804-377-5900",
+        "address": "4095 W Center, Provo, Utah 84601"
+      },
+      "logolocation": "./images/google-fiber-logo.png",
+      "url": "https://www.aaalakesidestorage.com/"
+    },
+    {
+      "business": "LDS Employment Resource Services",
+      "contactInfo": {
+        "telephone": "801-818-6161",
+        "address": "702 West Columbia Lane, Provo, Utah 84604"
+      },
+      "logolocation": "./images/ldsemploymentservices-logo.png",
+      "url": "https://www.latterdaysaintjobs.org/"
+    },
+    {
+      "business": "Utah Transit Authority",
+      "contactInfo": {
+        "telephone": "801-237-1929",
+        "address": "669 West 200 South, Salt Lake City, Utah, 84101"
+      },
+      "logolocation": "./images/uta-logo",
+      "url": "https://www.rideuta.com/"
     }
   ]
 }
