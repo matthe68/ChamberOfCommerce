@@ -25,7 +25,7 @@ fetch(requestURL)
           p1.innerHTML = String(`Contact Info`);
           p2.innerHTML = String(`Phone: ${businesses[i].telephone}`);
           p3.innerHTML = String(`Address: ${businesses[i].address}`);
-          image.src = String(`./images/${businesses[i].logolocation}`);
+          image.src = String(`${businesses[i].logolocation}`);
           image.alt = String(`${businesses[i].business} - photo`);
           image.width = "250";
 
