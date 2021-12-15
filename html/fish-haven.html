@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Fish Haven Weather</title>
+    <meta name="description" content="Weather forecast for Fish Haven, Idaho">
+    <link type="text/css" rel="stylesheet" href="../css/small.css">
+    <link type="text/css" rel="stylesheet" href="../css/medium.css">
+    <link type="text/css" rel="stylesheet" href="../css/large.css">
+    <link type="text/css" rel="stylesheet" href="../css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maitree:wght@200&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="../js/preston.js"></script>
+    <script src="https://kit.fontawesome.com/cd47c3c73d.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <ul id="notification-banner"></ul>
+    <header>
+      <img src="../images/weather-icon.png" alt="weather icon">
+      <div id="stacked-header">
+        <h1>Idaho Weather</h1>
+        <p>Getting YOU out there</p>
+      </div>
+    </header>
+    <nav>
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primary-nav" class="hide">
+        <li class="navElement" onclick = "toggleActive(this)"><a href="home.html">Home</a></li>
+        <li class="navElement" onclick = "toggleActive(this)"><a href="preston.html">Preston</a></li>
+        <li class="navElement" onclick = "toggleActive(this)"><a href="soda-springs.html">Soda Springs</a></li>
+        <li class="navElement" onclick = "toggleActive(this)"><a href="fish-haven.html">Fish Haven</a></li>
+        <li class="navElement" onclick = "toggleActive(this)"><a href="storm-center.html">Storm Center</a></li>
+        <li class="navElement" onclick = "toggleActive(this)"><a href="gallary.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <div id="banner">
+      <!-- <figure>
+        <img src="images/wdd230_image_franklinOriginal.jpeg"/>
+        <img src="../images/clouds-1000.png" alt="clouds"/>
+      </figure> -->
+      <picture class="banner-pic">
+        <source media="(max-width: 400px)" srcset="../images/fish-haven-400.jpg">
+        <source media="(max-width: 1000px)" srcset="../images/fish-haven-1000.jpg">
+        <source media="(max-width: 1600px)" srcset="../images/fish-haven-1600.jpg">
+        <img src="../images/fish-haven-2200.jpg" alt="banner pic" height=860>
+      </picture>
+      <ul id="weather-summary">
+        <li class="table-header">Todays Weather Summary</li>
+        <li class="label">Currently:</li>
+        <li class="value"><span id="current-condition"></span></li>
+        <li class="label">Temperature:</li>
+        <li class="value"><span id="current-temp"></span>&#176;F</li>
+        <li class="label">Wind Chill:</li>
+        <li class="value"><span id="current-wind-chill"></span>&#176;F</li>
+        <li class="label">Humidity:</li>
+        <li class="value"><span id="current-humidity"></span>%</li>
+        <li class="label">Wind Speed:</li>
+        <li class="value"><span id="current-wind-speed"></span>mph</li>
+      </ul>
+      <div id="five-day-forecast">
+        <h1 id="forecast">5 Day Weather Forecast</h1>
+        <ul id="days-grid">
+          <li>
+            <span class="day" id="dayofweek1"></span>
+            <img src="images/place-holder.jpg" alt="weather icon" height=79 id="forcondition1">
+            <span class="data"><span id="fortemp1"></span>&#176;F</span>
+          </li>
+          <li>
+            <span class="day" id="dayofweek2"></span>
+            <img src="images/place-holder.jpg" alt="weather icon" height=79 id="forcondition2">
+            <span class="data"><span id="fortemp2"></span>&#176;F</span>
+          </li>
+          <li>
+            <span class="day" id="dayofweek3"></span>
+            <img src="images/place-holder.jpg" alt="weather icon" height=79 id="forcondition3">
+            <span class="data"><span id="fortemp3"></span>&#176;F</span>
+          </li>
+          <li>
+            <span class="day" id="dayofweek4"></span>
+            <img src="images/place-holder.jpg" alt="weather icon" height=79 id="forcondition4">
+            <span class="data"><span id="fortemp4"></span>&#176;F</span>
+          </li>
+          <li>
+            <span class="day" id="dayofweek5"></span>
+            <img src="images/place-holder.jpg" alt="weather icon" height=79 id="forcondition5">
+            <span class="data"><span id="fortemp5"></span>&#176;F</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <main>
+      <div class="article">
+        <h1 class="first-header">Best Things To Do in Fish Haven, Idaho</h1>
+        <img id="article-floater" src="../images/fishhaven.jpg" alt="hiker"/>
+        <p>
+          Have you ever visited a new place and felt ‘wow’ about it? For many visitors, it happens at Fish Haven.
+        </p>
+        <p>
+          Fish Haven may not be as popular as other cities in United States, but don’t let that fool you. Fish Haven is a smaller but beautiful upcoming tourist destination that is worth a visit. You will be surprised by some of the unique things to do and places you can explore at this hidden destination.
+        </p>
+        <p>
+          You might wish to revisit it someday again, to take a break and relax at Fish Haven.
+        </p>
+        <p>
+          If you have plans to visit United States and are not sure if Fish Haven should be included in your itinerary, keep reading. In this list, we have put together some of the things to do in Fish Haven and around. We have a hunch that if you include this city in your travel plans, you will be thrilled you did so.
+        </p>
+        <h2>Tourist Attractions in Fish Haven</h2>
+        <p>
+          Here is the list of things to do in Fish Haven and tourist attractions in city.
+        </p>
+        <ul>
+          <li>The Reserve At Bear Lake</li>
+          <li>J-Lazy-M Ranch Airport</li>
+          <li>Art Fanconi Construction</li>
+        </ul>
+        <p><span>For more info visit <a href="https://www.triphobo.com/places/fish-haven-idaho-united-states/things-to-do">www.triphobo.com</a></span></p>
+      </div>
+    </main>
+    <div class="article" id="upcoming-events"></div>
+    <div class="contact-information">
+      <img id="map" src="../images/place-holder.jpg" data-src="../images/preston-map.png" alt="map"/>
+      <div id="footer-contact-info">
+        <h1 id="contact-info-header">The Weather Site</h1>
+        <p>30 N 1st E</p>
+        <p>Preston, ID 83263</p>
+        <p>999.999.9999</p>
+      </div>
+    </div>
+    <footer>
+      <div id="top">&copy;2021 The Weather Site | OpenWeather API| Matthew Christensen</div>
+      <div id="bottom"><span id="today"></span><span> | </span><span id="days-since-last-visit"></span><span> | </span><a href="../../index.html">Portal</a></div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ["Maitree", "Source Sans Pro"]}})</script>
+    <script src="../js/events.js"></script>
+    <script src="../js/lazy-load.js"></script>
+    <script src="../js/live-weather-data-fish-haven.js"></script>
+    <script src="../js/forecasted-weather-data-fish-haven.js"></script>
+  </body>
+</html>

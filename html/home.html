@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Idaho Weather</title>
+    <meta name="description" content="This is the home page for Idaho Weather, checkout our site for weather updates in your area.">
+    <link type="text/css" rel="stylesheet" href="../css/small.css">
+    <link type="text/css" rel="stylesheet" href="../css/medium.css">
+    <link type="text/css" rel="stylesheet" href="../css/large.css">
+    <link type="text/css" rel="stylesheet" href="../css/normalize.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="../js/preston.js"></script>
+    <script src="https://kit.fontawesome.com/cd47c3c73d.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <ul id="notification-banner"></ul>
+    <header>
+      <img src="../images/weather-icon.png" alt="weather icon">
+      <div id="stacked-header">
+        <h1>Idaho Weather</h1>
+        <p>Getting YOU out there</p>
+      </div>
+    </header>
+    <nav>
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primary-nav" class="hide">
+        <li class="navElement" onclick = "toggleActive(this)"><a href="home.html">Home</a></li>
+        <li class="navElement" onclick = "toggleActive(this)"><a href="preston.html">Preston</a></li>
+        <li class="navElement" onclick = "toggleActive(this)"><a href="soda-springs.html">Soda Springs</a></li>
+        <li class="navElement" onclick = "toggleActive(this)"><a href="fish-haven.html">Fish Haven</a></li>
+        <li class="navElement" onclick = "toggleActive(this)"><a href="storm-center.html">Storm Center</a></li>
+        <li class="navElement" onclick = "toggleActive(this)"><a href="gallary.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div id="article">
+        <picture class="banner-pic">
+          <source media="(max-width: 400px)" srcset="../images/clouds-400.png">
+          <source media="(max-width: 6500px)" srcset="../images/clouds-650.png">
+          <img src="../images/clouds-1000.png" alt="banner pic" height=335>
+        </picture>
+        <div class="article">
+          <div id="cards-container"></div>
+          <h1>Welcome!</h1>
+            <p>
+              Welcome to the Idaho Weather page! Whether this is your first time to our page or you visit every day,
+            we are here to help you get live updates on the latest weather in the cities of Preston, Soda Springs,
+            and Fish Haven Idaho. This page utilizes stock photos from https://www.pexels.com/ and live updates 
+            from OpenWeather APIs. For each city you can find more information about upcoming events and things to do 
+            in the city if you are in for a visit. Please checkout the links attatched in the articles for more information
+            on how to enjoy your time here in Idaho. 
+            </p>
+        </div>
+      </div>
+    </main>
+    <div class="contact-information">
+      <img id="map" src="../images/place-holder.jpg" data-src="../images/preston-map.png" alt="map"/>
+      <div id="footer-contact-info">
+        <h1 id="contact-info-header">The Weather Site</h1>
+        <p>30 N 1st E</p>
+        <p>Preston, ID 83263</p>
+        <p>999.999.9999</p>
+      </div>
+    </div>
+    <footer>
+      <div id="top">&copy;2021 The Weather Site | OpenWeather API| Matthew Christensen</div>
+      <div id="bottom"><span id="today"></span><span> | </span><span id="days-since-last-visit"></span><span> | </span><a href="../../index.html">Portal</a></div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ["Maitree", "Source Sans Pro"]}})</script>
+    <script src="../js/home.js"></script>
+    <script src="../js/lazy-load.js"></script>
+    <script src="../js/storm-center.js"></script>
+  </body>
+</html>
