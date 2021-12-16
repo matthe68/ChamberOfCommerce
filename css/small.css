@@ -62,7 +62,7 @@ nav ul {
   list-style: NONE;
   display: flex;
   flex-direction: column;
-  padding: 0;
+  padding-right: 0 !important;
   margin: 0;
   font-weight: 1000;
   font-size: larger;
@@ -668,5 +668,12 @@ form label textarea {
   width: 150px;
   margin-right: 15px;
   text-align: center;
+}
+#just-here-to-contain {
+  overflow: hidden;
+  width: 60vw;
+  height: 60vw;
+  max-width: 500px;
+  max-height: 500px;
 }
 /*------------------------*/
