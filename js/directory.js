@@ -42,8 +42,14 @@ fetch(rURL)
       card.onclick = openLink;
       card.classList.add('article');
 
-      document.querySelector('#card-grid').appendChild(card);
+      document.querySelector('#card-layout').appendChild(card);
       firstItem = false;
     }
   });
+
+function changeDisplayStyle(type) {
+  console.log("type: ", type);
+  document.querySelector('#card-layout').className="";
+  type == "grid" ? document.querySelector('#card-layout').classList.add("card-grid") : document.querySelector('#card-layout').classList.add("card-list");
+}
 

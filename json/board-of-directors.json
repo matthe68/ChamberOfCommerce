@@ -1,0 +1,34 @@
+{
+  "board-of-directors": [
+    {
+      "name": "Kevin Dowdle",
+      "titles": "Sr Relationships Manager Wells Fargo",
+      "image": "https://growthzonesitesprod.azureedge.net/wp-content/uploads/sites/1230/2021/03/Kevin-Dowdle.png",
+      "icon": "https://growthzonesitesprod.azureedge.net/wp-content/uploads/sites/1230/2020/10/Wells-Fargo-150x150.png"
+    },
+    {
+      "name": "Jeremy Hafen",
+      "titles": "President Clyde Companies",
+      "image": "https://growthzonesitesprod.azureedge.net/wp-content/uploads/sites/1230/2021/03/Hafen1.png",
+      "icon": "https://growthzonesitesprod.azureedge.net/wp-content/uploads/sites/1230/2020/08/Clyde-Companies-Logo.png"
+    },
+    {
+      "name": "Cameron Martin",
+      "titles": "VP Operations Rocky Mountain University",
+      "image": "https://wordpressstorageaccount.blob.core.windows.net/wp-media/wp-content/uploads/sites/1230/2019/10/Cameron-Martin.jpg",
+      "icon": "https://growthzonesitesprod.azureedge.net/wp-content/uploads/sites/1230/2020/10/RMUoHP-1024x535.jpg"
+    },
+    {
+      "name": "Chris Anderson",
+      "titles": "Partner Dentons, Durham, Jones, Pinegar",
+      "image": "https://growthzonesitesprod.azureedge.net/wp-content/uploads/sites/1230/2020/01/Anderson-Chris-e1578518509720.jpg",
+      "icon": "https://growthzonesitesprod.azureedge.net/wp-content/uploads/sites/1230/2021/06/DJP-Logo.png"
+    },
+    {
+      "name": "Jamie Davidson",
+      "titles": "City Manager Orem City",
+      "image": "https://wordpressstorageaccount.blob.core.windows.net/wp-media/wp-content/uploads/sites/1230/2019/10/jamie-davidson.jpg",
+      "icon": "https://growthzonesitesprod.azureedge.net/wp-content/uploads/sites/1230/2020/09/Orem-Logo.png"
+    }
+  ]
+}

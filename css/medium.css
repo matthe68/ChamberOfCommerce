@@ -50,13 +50,21 @@
   .gallery {
     grid-template-columns: 1fr 1fr;
   }
-  #card-grid {
+  .card-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
   }
+  .card-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    width: 515px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   @media only screen and (min-width: 915px) {
-    #card-grid {
+    .card-grid {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       gap: 1em;
@@ -185,4 +193,22 @@
   #days-grid li .data {
     font-size: 1.2em;
   }
+  /*----------toggle buttons---------*/
+  #toggle-buttons {
+    text-align: right;
+  }
+  #toggle-buttons {
+    color: var(--light-blue);
+  }
+  .fa-list-ul {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .fa-th {
+    cursor: pointer;
+  }
+  #toggle-buttons {
+    display: block;
+  }
+  /*---------------------------------*/
 }
