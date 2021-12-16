@@ -20,6 +20,7 @@ fetch(rURL)
       image.src = String(`${board[i].image}`);
       image.alt = String(`${board[i].name} - photo`);
       image.width = "150";
+      image.height = "200";
       p1.innerHTML = String(`${board[i].name}`);
       p1.classList.add('bold');
       p2.innerHTML = String(`${board[i].titles}`);
