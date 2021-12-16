@@ -24,6 +24,29 @@
     padding-left: 0;
     padding-right: 0;
   }
+  #home-main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 275px 150px;
+    gap: 1em;
+  }
+  #ad-header {
+    margin-top: 0;
+  }
+  #advertisements {
+    grid-column: 2 / -1;
+    grid-row: 1 / -1;
+  }
+  #advertisements section {
+    text-align: center;
+  }
+  #advertisements section img {
+    padding-bottom: 5px;
+    max-width: 100%;
+  }
+  #advertisements section:hover {
+    cursor: pointer;
+  }
   .gallery {
     grid-template-columns: 1fr 1fr;
   }
@@ -53,9 +76,9 @@
   width: 100%;
   }
   #weather-summary {
-    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
+    width: auto;
   }
   #article-floater {
     max-width: 300px;

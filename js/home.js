@@ -22,6 +22,7 @@ fetch(requestURL)
           let image = document.createElement('img');
 
           h2.textContent = String(`${businesses[i].business}`);
+          h2.classList.add('first-header');
           p1.innerHTML = String(`Contact Info`);
           p2.innerHTML = String(`Phone: ${businesses[i].contactInfo.telephone}`);
           p3.innerHTML = String(`Address: ${businesses[i].contactInfo.address}`);
@@ -35,7 +36,7 @@ fetch(requestURL)
           div.appendChild(p3);
           card.appendChild(div);
           card.appendChild(image);
-          let location =  String(`./${String(businesses[i].business).replace(' ', '-')}.html`);
+          let location =  String(`directory.html`);
           location = location.toLowerCase();
           console.log("location: ", location);
           function openLink(e) {
@@ -43,8 +44,9 @@ fetch(requestURL)
             window.location = location;
           }
           card.onclick = openLink;
+          card.classList.add('article');
 
-          document.querySelector('#cards-container').appendChild(card);
+          document.querySelector('#advertisement-cards').appendChild(card);
           firstItem = false;
         }
       }

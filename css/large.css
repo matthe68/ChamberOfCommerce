@@ -83,4 +83,26 @@
   #main-home div section {
     background-color:rgba(238, 238, 238, 0.6) !important; 
   }
+  #home-main {
+    display: grid;
+    grid-template-columns: 1fr 270px;
+    grid-template-rows: 1fr 1fr 275px 150px;
+    gap: 1em;
+  }
+  #ad-header {
+    margin-top: 0;
+  }
+  #advertisements {
+    grid-column: 2 / -1;
+    grid-row: 1 / -1;
+  }
+  #advertisements section {
+    text-align: center;
+  }
+  #advertisements section img {
+    padding-bottom: 5px;
+  }
+  #advertisements section:hover {
+    cursor: pointer;
+  }
 }

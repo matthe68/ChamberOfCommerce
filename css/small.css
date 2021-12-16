@@ -159,6 +159,12 @@ nav ul.hide {
   font-size: 1.2em;
   padding: .2em;
 }
+.contact-information .social-media-flex {
+  display: flex;
+}
+.contact-information .social-media-flex img {
+  width: 50px;
+}
 #welcome img {
 padding-right: 1em;
 padding-bottom: 1em;
@@ -508,7 +514,7 @@ form label textarea {
 }
 /*-----------------------------------------*/
 /*----------over banner button----------------*/
-.over-banner-button {
+.over-banner-button a {
   position:absolute;
   background-color: var(--white);
   color: var(--black);
@@ -520,8 +526,9 @@ form label textarea {
   bottom: 10px;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-decoration: none;
 }
-.over-banner-button:hover {
+.over-banner-button a:hover {
   background-color: var(--black);
   color: var(--white);
   cursor:pointer;
@@ -585,6 +592,22 @@ form label textarea {
   font-size: 1.2em;
 }
 /*-----------------------------------------*/
+#advertisements .article {
+  max-width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#advertisements section {
+  text-align: center;
+}
+#advertisements section img {
+  padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#advertisements section:hover {
+  cursor: pointer;
+}
 @media only screen and (max-width: 349px) {
   #days-grid {
     flex-direction: column;

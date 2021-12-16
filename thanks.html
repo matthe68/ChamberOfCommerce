@@ -3,15 +3,13 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Chamber of Commerce Directory</title>
-    <meta name="description" content="This is the directory page for businesses in the Provo Chamber of Commerce">
+    <title>Thank You</title>
+    <meta name="description" content="Thank you for your application!">
     <link type="text/css" rel="stylesheet" href="./css/small.css">
     <link type="text/css" rel="stylesheet" href="./css/medium.css">
     <link type="text/css" rel="stylesheet" href="./css/large.css">
     <link type="text/css" rel="stylesheet" href="./css/normalize.css">
     <link rel="shortcut icon" href="favicon.ico">
-    <script src="./js/preston.js"></script>
-    <script src="https://kit.fontawesome.com/cd47c3c73d.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -33,27 +31,10 @@
         <li class="navElement" onclick = "toggleActive(this)"><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <main id="storm-center-form-main">
+    <main>
       <div class="article">
-        <h1 class="first-header">Join</h1>
-        <form method="get" action="thanks.html" id="storm-center-form">
-          <fieldset>
-            <legend>Contact Info</legend>
-            <label class="top">First Name*<input type="text" name="firstname" pattern="^[a-zA-Z ]{3,}$" required></label>
-            <label class="top">Last Name*<input type="text" name="lastname" pattern="^[a-zA-Z ]{3,}$" required></label>
-            <label class="top">Title<input type="text" name="title"></label>
-            <label class="top">Email*<input type="email" name="email" required></label>
-            <label class="top">Cell Phone<input type="tel" name="phone" pattern="^[0-9]{10,}$"></label>            
-          </fieldset>
-          <fieldset>
-            <legend>Business Info</legend>
-            <label class="top">Business Name*<input type="text" name="business-name" required></label>
-            <label class="top">Business Address<input type="text" name="business-address"></label>
-            <label class="top">Website<input type="text" name="website"></label>
-            <label class="top">Business Description<input type="text" name="business-description"></label>
-          </fieldset>
-          <input type="submit" value="Join Now" class="submitBtn">
-        </form>
+        <h1 class="first-header">Application Being Processes</h1>
+        <p>Thank you for submitting your application to the Provo Chamber of Commerce! We will process your application in the next three to five business days and will contact you with the information you provided. If there was a mistake in your form please feel free to contact us and fill out a new application. Our contact information is listed on the contact tab. </p>
       </div>
     </main>
     <div class="contact-information">
@@ -69,12 +50,8 @@
       <div id="top">&copy;2021 The Provo Chamber of Commerce | OpenWeather API| Matthew Christensen</div>
       <div id="bottom"><span id="today"></span><span> | </span><span id="days-since-last-visit"></span><span> | </span><a href="../index.html">Portal</a></div>
     </footer>
-    <script src="./js/home.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>WebFont.load({google: {families: ["Maitree", "Source Sans Pro"]}})</script>
-    <script src="./js/live-weather-data-provo.js"></script>
-    <script src="./js/forecasted-weather-data-provo.js"></script>
-    <!-- <script src="./js/events.js"></script> -->
     <script src="./js/lazy-load.js"></script>
   </body>
 </html>

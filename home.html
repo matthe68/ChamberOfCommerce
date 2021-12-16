@@ -40,9 +40,9 @@
         <source media="(max-width: 1600px)" srcset="./images/banner-1600.jpg">
         <img src="./images/Banner-2200.jpg" alt="banner pic" height=860>
       </picture>
-      <div class="over-banner-button"><a class="button">Apply Now</a></div>
+      <div class="over-banner-button"><a class="button" href="join.html">Apply Now</a></div>
     </div>
-    <main>
+    <main id="home-main">
       <div class="article" id="welcome">
         <h1 class="first-header">Welcome</h1>
         <img id="article-floater" src="./images/center-street-brick.jpg" alt="center street"/>
@@ -54,9 +54,9 @@
           businesses that reside here. <a href="join.html">Apply now</a> to join the Chamber of Commerce!
         </p>
       </div>
-      <div class="article">
-        <h1 class="first-header">Provo Businesses</h1>
-        <div id="cards-container"></div>
+      <div id="advertisements">
+        <h1 id="ad-header">Provo Businesses</h1>
+        <div id="advertisement-cards"></div>
       </div>
       <div class="article" id="upcoming-events"></div>
       <ul id="weather-summary" class="article">
@@ -110,6 +110,11 @@
         <p>77 W 4800N</p>
         <p>Provo, UT 84604</p>
         <p>801.300.0582</p>
+        <div class="social-media-flex">
+          <a href="https://www.facebook.com/"><img src="images/place-holder.jpg" alt="facebook icon" height=40 data-src="./images/facebook-logo.png"></a>
+          <a href="https://www.instagram.com/"><img src="images/place-holder.jpg" alt="instagram icon" height=40 data-src="./images/instagram-logo.png"></a>
+          <a href="https://twitter.com/"><img src="images/place-holder.jpg" alt="twitter icon" height=40 data-src="./images/twitter-icon.png"></a>
+        </div>
       </div>
     </div>
     <footer>
@@ -121,7 +126,7 @@
     <script>WebFont.load({google: {families: ["Maitree", "Source Sans Pro"]}})</script>
     <script src="./js/live-weather-data-provo.js"></script>
     <script src="./js/forecasted-weather-data-provo.js"></script>
-    <!-- <script src="./js/events.js"></script> -->
+    <script src="./js/events.js"></script>
     <script src="./js/lazy-load.js"></script>
   </body>
 </html>
