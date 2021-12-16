@@ -22,23 +22,27 @@ fetch(rURL)
       image.alt = String(`${businesses[i].business} - photo`);
       image.width = "250";
       h1.textContent = String(`${businesses[i].business}`);
+      console.log("businesses[i].contactInfo: ", businesses[i].contactInfo.telephone);
       p1.innerHTML = String(`Phone: ${businesses[i].contactInfo.telephone}`);
       p2.innerHTML = String(`Address: ${businesses[i].contactInfo.address}`);
       p3.innerHTML = String(`Website: ${businesses[i].url}`);  
 
       card.appendChild(image);
-      div.appendChild(h1, p1, p2, p3);
+      div.appendChild(h1);
+      div.appendChild(p1);
+      div.appendChild(p2);
+      div.appendChild(p3);
       card.appendChild(div);
       card.setAttribute("dataset", businesses[i].url);
       function openLink(e) {
         e.preventDefault();
-        console.log("e.target: ", e.target);
-        window.location = e.target.dataset;
+        console.log("e.target: ", e.target.attributes[0]);
+        window.location = e.target.attributes[0].value;
       }
       card.onclick = openLink;
       card.classList.add('article');
 
-      document.querySelector('#gallery-main').appendChild(card);
+      document.querySelector('#card-grid').appendChild(card);
       firstItem = false;
     }
   });
