@@ -29,6 +29,36 @@
       "titles": "City Manager Orem City",
       "image": "https://wordpressstorageaccount.blob.core.windows.net/wp-media/wp-content/uploads/sites/1230/2019/10/jamie-davidson.jpg",
       "icon": "https://growthzonesitesprod.azureedge.net/wp-content/uploads/sites/1230/2020/09/Orem-Logo.png"
+    },
+    {
+      "name": "Mike Roberts",
+      "titles": "Managing Director Alumni and External Relations BYU",
+      "image": "https://growthzonesitesprod.azureedge.net/wp-content/uploads/sites/1230/2021/03/Asset-10.png",
+      "icon": "https://growthzonesitesprod.azureedge.net/wp-content/uploads/sites/1230/2021/06/1024px-Brigham_Young_University_medallion.svg_.png"
+    },
+    {
+      "name": "Stan Lockhart",
+      "titles": "Principal The Lockhart Group",
+      "image": "https://growthzonesitesprod.azureedge.net/wp-content/uploads/sites/1230/2021/03/Stan-Lockhart.png",
+      "icon": "https://growthzonesitesprod.azureedge.net/wp-content/uploads/sites/1230/2021/06/lockhart.png"
+    },
+    {
+      "name": "Kevin Wilson",
+      "titles": "Director of Public RelationsDoTERRA",
+      "image": "https://growthzonesitesprod.azureedge.net/wp-content/uploads/sites/1230/2021/03/Wilson.png",
+      "icon": "https://growthzonesitesprod.azureedge.net/wp-content/uploads/sites/1230/2021/06/doterra_logo-1024x217.jpg"
+    },
+    {
+      "name": "Kara Schneck",
+      "titles": "VP Marketing UVU",
+      "image": "https://growthzonesitesprod.azureedge.net/wp-content/uploads/sites/1230/2021/03/Kara-Schneck.png",
+      "icon": "https://growthzonesitesprod.azureedge.net/wp-content/uploads/sites/1230/2021/06/UVU-copy.png"
+    },
+    {
+      "name": "Jacob Brace",
+      "titles": "Manager Governmanet & Community Affairs Google Fiber",
+      "image": "https://www.thechamber.org/wp-content/uploads/sites/1230/bb-plugin/cache/JB-819x1024-portrait.jpg",
+      "icon": "https://growthzonesitesprod.azureedge.net/wp-content/uploads/sites/1230/2021/06/google-fiber-logo-e1624897115332.png"
     }
   ]
 }

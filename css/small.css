@@ -655,3 +655,18 @@ form label textarea {
   margin-left: auto;
   margin-right: auto;
 }
+.bold {
+  font-weight: 800;
+}
+/*-----board members------*/
+#board-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.board-of-director-card {
+  width: 150px;
+  margin-right: 15px;
+  text-align: center;
+}
+/*------------------------*/
