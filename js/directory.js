@@ -29,11 +29,11 @@ fetch(rURL)
       card.appendChild(image);
       div.appendChild(h1, p1, p2, p3);
       card.appendChild(div);
-      card.srclocation = businesses[i].url;
+      card.setAttribute("dataset", businesses[i].url);
       function openLink(e) {
         e.preventDefault();
         console.log("e.target: ", e.target);
-        window.location = srclocation;
+        window.location = e.target.dataset;
       }
       card.onclick = openLink;
       card.classList.add('article');
